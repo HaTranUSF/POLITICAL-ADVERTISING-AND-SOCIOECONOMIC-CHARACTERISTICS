@@ -444,7 +444,9 @@
       <li><a href="#findings">Findings</a></li>
       <li><a href="#sources">Data</a></li>
       <li><a href="#pipeline">Pipeline</a></li>
+      <li><a href="#slides">Slides</a></li>
       <li><a href="#team">Team</a></li>
+      <li><a href="https://github.com/HaTranUSF/POLITICAL-ADVERTISING-AND-SOCIOECONOMIC-CHARACTERISTICS" target="_blank">GitHub &#8599;</a></li>
     </ul>
   </nav>
 
@@ -752,23 +754,118 @@
       <div class="team-card">
         <div class="team-initial" style="background: var(--accent);">QT</div>
         <h4>Quan Tran</h4>
-        <p>Data analysis, presentation</p>
+        <p>Data pipeline, Census cleaning, Tableau dashboards</p>
       </div>
       <div class="team-card">
         <div class="team-initial" style="background: #2563b0;">QN</div>
         <h4>Quang Nguyen</h4>
-        <p>Data analysis, presentation</p>
+        <p>Data analysis, Tableau dashboards, presentation</p>
       </div>
       <div class="team-card">
         <div class="team-initial" style="background: #065f46;">KL</div>
         <h4>Kimsing Lor</h4>
-        <p>Data analysis, presentation</p>
+        <p>Data analysis, Tableau dashboards, presentation</p>
       </div>
       <div class="team-card">
         <div class="team-initial" style="background: #78350f;">YY</div>
         <h4>Yusuke Yoshizawa</h4>
-        <p>Data analysis, presentation</p>
+        <p>Tableau dashboards</p>
       </div>
+    </div>
+  </section>
+
+  <!-- PRESENTATION SLIDES -->
+  <section id="slides">
+    <div class="section-header">
+      <span class="section-num">07 / Presentation</span>
+      <h2>Final Presentation Slides</h2>
+    </div>
+    <p style="font-size:0.9rem; color:var(--mid); margin-bottom:2rem; max-width:600px;">A preview of the slides we presented for ISM4930. Download the full PDF or Tableau workbook using the links below.</p>
+
+    <!-- Slide previews using SVG placeholders that match the actual slide content -->
+    <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:1rem; margin-bottom:2.5rem;">
+
+      <div style="border:1px solid var(--rule); background:#1a1a2e; padding:2rem 1.5rem; aspect-ratio:16/9; display:flex; flex-direction:column; justify-content:flex-end;">
+        <p style="font-size:0.6rem; color:rgba(255,255,255,0.4); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:0.4rem;">ISM4930</p>
+        <p style="font-family:'Syne',sans-serif; font-size:1rem; font-weight:800; color:#fff; line-height:1.2;">Political Advertising &amp; Socioeconomic Characteristics</p>
+        <p style="font-size:0.65rem; color:rgba(255,255,255,0.45); margin-top:0.5rem;">An Analysis of Google Political Ad Spending, 2020 to 2024</p>
+      </div>
+
+      <div style="border:1px solid var(--rule); background:var(--card); padding:1.5rem; aspect-ratio:16/9; display:flex; flex-direction:column; justify-content:center; gap:0.75rem;">
+        <p style="font-family:'Syne',sans-serif; font-size:0.75rem; font-weight:800; color:var(--ink);">The Two Questions</p>
+        <div style="display:flex; gap:0.5rem; align-items:flex-start;">
+          <span style="font-family:'Syne',sans-serif; font-size:1.2rem; font-weight:800; color:var(--rule);">01</span>
+          <p style="font-size:0.65rem; color:var(--mid); line-height:1.4;">Does political ad spending vary systematically across U.S. states between 2020 and 2024?</p>
+        </div>
+        <div style="display:flex; gap:0.5rem; align-items:flex-start;">
+          <span style="font-family:'Syne',sans-serif; font-size:1.2rem; font-weight:800; color:var(--rule);">02</span>
+          <p style="font-size:0.65rem; color:var(--mid); line-height:1.4;">Are states with lower income or higher education targeted with more spending?</p>
+        </div>
+      </div>
+
+      <div style="border:1px solid var(--rule); background:var(--card); padding:1.5rem; aspect-ratio:16/9; display:flex; flex-direction:column; justify-content:center; gap:0.5rem;">
+        <p style="font-family:'Syne',sans-serif; font-size:0.75rem; font-weight:800; color:var(--ink); margin-bottom:0.25rem;">Methodology</p>
+        <div style="display:flex; gap:0.5rem; align-items:center;">
+          <div style="width:8px; height:8px; background:var(--blue); border-radius:50%; flex-shrink:0;"></div>
+          <p style="font-size:0.62rem; color:var(--mid);">political_leaning_by_election.csv (Wikipedia)</p>
+        </div>
+        <div style="display:flex; gap:0.5rem; align-items:center;">
+          <div style="width:8px; height:8px; background:var(--accent); border-radius:50%; flex-shrink:0;"></div>
+          <p style="font-size:0.62rem; color:var(--mid);">master_socioeconomic_panel.csv (Census ACS)</p>
+        </div>
+        <div style="display:flex; gap:0.5rem; align-items:center;">
+          <div style="width:8px; height:8px; background:#16a34a; border-radius:50%; flex-shrink:0;"></div>
+          <p style="font-size:0.62rem; color:var(--mid);">Ads_final.csv (Google Ads Transparency Center)</p>
+        </div>
+      </div>
+
+      <div style="border:1px solid var(--rule); background:var(--card); padding:1.5rem; aspect-ratio:16/9; display:flex; flex-direction:column; justify-content:center;">
+        <p style="font-family:'Syne',sans-serif; font-size:0.75rem; font-weight:800; color:var(--ink); margin-bottom:0.75rem;">Overall Snapshot</p>
+        <div style="display:flex; gap:0.5rem; align-items:flex-end; height:60px;">
+          <div style="flex:1; background:#2563b0; height:80%;"></div>
+          <div style="flex:1; background:var(--accent); height:65%;"></div>
+          <div style="width:1px; background:var(--rule); height:100%;"></div>
+          <div style="flex:1; background:#2563b0; height:55%;"></div>
+          <div style="flex:1; background:var(--accent); height:100%;"></div>
+        </div>
+        <p style="font-size:0.6rem; color:var(--mid); margin-top:0.4rem;">Political swings: 2020 vs. 2024 + choropleth heatmap</p>
+      </div>
+
+      <div style="border:1px solid var(--rule); background:var(--card); padding:1.5rem; aspect-ratio:16/9; display:flex; flex-direction:column; justify-content:center;">
+        <p style="font-family:'Syne',sans-serif; font-size:0.75rem; font-weight:800; color:var(--ink); margin-bottom:0.75rem;">Median Income vs. Ad Spend</p>
+        <div style="position:relative; height:65px;">
+          <div style="position:absolute; bottom:20px; left:30%; width:8px; height:8px; background:var(--accent); border-radius:50%;"></div>
+          <div style="position:absolute; bottom:50px; left:50%; width:8px; height:8px; background:var(--accent); border-radius:50%;"></div>
+          <div style="position:absolute; bottom:10px; left:60%; width:8px; height:8px; background:#2563b0; border-radius:50%;"></div>
+          <div style="position:absolute; bottom:35px; left:70%; width:10px; height:10px; background:var(--accent); border-radius:50%;"></div>
+          <div style="position:absolute; bottom:5px; left:80%; width:8px; height:8px; background:#2563b0; border-radius:50%;"></div>
+          <div style="position:absolute; bottom:0; left:0; right:0; height:1px; background:var(--rule);"></div>
+        </div>
+        <p style="font-size:0.6rem; color:var(--mid); margin-top:0.4rem;">All states and swing states scatter by election year</p>
+      </div>
+
+      <div style="border:1px solid var(--rule); background:#1a1a2e; padding:1.5rem; aspect-ratio:16/9; display:flex; flex-direction:column; justify-content:center;">
+        <p style="font-family:'Syne',sans-serif; font-size:0.7rem; font-weight:800; color:#fff; margin-bottom:0.5rem;">Conclusion</p>
+        <p style="font-size:0.62rem; color:rgba(255,255,255,0.55); line-height:1.5;">Electoral importance, not demographics, drives where Google political ad dollars go. Swing states are the gravity wells of modern digital campaign spending.</p>
+      </div>
+
+    </div>
+
+    <!-- Downloads + GitHub bar -->
+    <div style="display:flex; flex-wrap:wrap; gap:1rem; padding:1.5rem 2rem; background:var(--card); border:1px solid var(--rule); align-items:center;">
+      <span style="font-size:0.78rem; font-weight:600; color:var(--mid); margin-right:0.5rem;">Downloads &amp; Links</span>
+      <a href="Political Advertising – Final Presentation.pdf" download
+         style="display:inline-flex; align-items:center; gap:0.5rem; background:var(--accent); color:#fff; font-size:0.8rem; font-weight:600; padding:0.55rem 1.1rem; text-decoration:none;">
+        &#8595; Presentation PDF
+      </a>
+      <a href="Final Project 1 1 2.twbx" download
+         style="display:inline-flex; align-items:center; gap:0.5rem; background:#2563b0; color:#fff; font-size:0.8rem; font-weight:600; padding:0.55rem 1.1rem; text-decoration:none;">
+        &#8595; Tableau Workbook
+      </a>
+      <a href="https://github.com/HaTranUSF/POLITICAL-ADVERTISING-AND-SOCIOECONOMIC-CHARACTERISTICS" target="_blank"
+         style="display:inline-flex; align-items:center; gap:0.5rem; background:var(--ink); color:#fff; font-size:0.8rem; font-weight:600; padding:0.55rem 1.1rem; text-decoration:none;">
+        &#8599; View on GitHub
+      </a>
     </div>
   </section>
 
