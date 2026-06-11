@@ -134,10 +134,10 @@ The Tableau workbook (`Final_Project.twbx`) has four dashboards:
 | Name | Role |
 |---|---|
 | Ha Tran | Data pipeline, Census cleaning, Tableau dashboards |
-| Quan Tran | Data analysis, presentation |
-| Quang Nguyen | Data analysis, presentation |
-| Kimsing Lor | Data analysis, presentation |
-| Yusuke Yoshizawa | Data analysis, presentation |
+| Quan Tran | Data pipeline, Census cleaning, Tableau dashboards|
+| Quang Nguyen | Data analysis, Tableau dashboards, presentation |
+| Kimsing Lor | Data analysis, Tableau dashboards, presentation |
+| Yusuke Yoshizawa | Tableau dashboards|
  
 ---
  
